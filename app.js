@@ -17,6 +17,9 @@ var app = express();
 
 var gracefulShutdown;
 var dbURI = 'mongodb://localhost/lam';
+if (process.env.NODE_ENV === 'production') {
+    dbURI = process.env.MONGODB_URI;
+}
 
 //  Connect to MongoDB server in the 'test' database
 mongoose.connect(dbURI);
