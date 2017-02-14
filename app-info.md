@@ -2,9 +2,9 @@ LEARN ABOUT ME APP INFORMATION
 
 ** HEROKU **
 
-app name:   morning-river-47145
-app url:    https://morning-river-47145.herokuapp.com/
-git url:    https://git.heroku.com/morning-river-47145.git
+app name:   cjs-learnaboutme
+app url:    https://cjs-learnaboutme.herokuapp.com/
+git url:    https://git.heroku.com/cjs-learnaboutme.git
 
 ** MONGO LAB **
 
